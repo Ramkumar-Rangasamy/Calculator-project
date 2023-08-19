@@ -1,0 +1,149 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+.main-calculator{
+  background-image: url('./assets/blue-office-stationery-with-copy-space.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  text-align: center;
+  padding:100px;
+ 
+}
+.calculator{
+  color: black;
+}
+form p{
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  padding-top:30px;
+}
+input{
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-radius:5px;
+  margin:30px;
+}
+button {
+  font-size:20px;
+  padding:10px;
+  border-radius: 5px;
+  text-align: center;
+}
+button {
+  border: 1px solid gray;
+  background:rgb(231, 198, 38);
+  color: white;
+  margin:10px;
+  border: none;
+  outline: none;
+}
+button:nth-last-child(2),
+button:nth-last-child(1) {
+  background:green;
+  color: white;
+}
+
+.footer{
+	background-color: #24262b;
+    padding: 20px;
+    line-height: 1.5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin:50px;
+	font-weight: 500;
+}
+
+.footer-col p{
+	color:white;
+	margin-top:20px;
+}
+
+.footer-col a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+} 
+
+/*responsive*/
+
+@media(max-width: 767px){
+  .footer-col{
+    width:100%;
+    margin-bottom:30px;
+  }
+  
+  input{
+     width:70%;
+  }
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+  }
+  input{
+    width: 80%;
+  }
+  .main-calculator{ 
+    backdrop-filter:30px;
+    background-position: center;
+    padding:40px;
+   
+  }
+}
+@media(max-width: 300px){
+	.footer-col{
+	  width: 100%;
+  }
+  .footer-col h2{
+	  font-size: 25px;
+  }
+  input{
+    width: 70%;
+  }
+  
+  } 
+  @media(max-width: 300px){
+    .footer-col{
+      width: 100%;
+    }
+    .footer-col h2{
+      font-size: 25px;
+    }
+    input{
+      width: 70%;
+    }
+    
+    } 
